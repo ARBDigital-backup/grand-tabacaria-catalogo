@@ -64,8 +64,11 @@ function cardHTML(p){
 }
 
 function renderStatic(){
+  const perf=P.filter(p=>p.cat==="perfume");
+  const pick=[perf.find(p=>p.old)||perf[0],...perf.filter(p=>p.destaque&&!p.old).slice(0,2)];
+  $("#showcase").innerHTML=pick.map(p=>`<button data-id="${p.id}" class="sc"><img src="${p.imagem}" alt=""><span class="cap">${esc(p.nome)}<small>${p.old?`De ${money(p.old)} por ${money(p.price)}`:money(p.price)}</small></span></button>`).join("");
   $("#dept").innerHTML='<a href="#inicio" data-v="home">Início</a>'+Object.entries(SLUG).map(([s,c])=>`<a href="#${s}" data-v="${c}">${CATS[c].nome}</a>`).join("")+'<a href="#ofertas" data-v="ofertas" class="hot">Ofertas</a>';
-  const cover={perfume:P.find(p=>p.cat==="perfume"&&p.destaque&&!p.old)||P.find(p=>p.cat==="perfume"),pod:P.find(p=>p.cat==="pod"&&p.novo),liquido:P.find(p=>p.cat==="liquido")};
+  const cover={perfume:P.find(p=>/shaheen/i.test(p.nome))||P.find(p=>p.cat==="perfume"),pod:P.find(p=>p.cat==="pod"&&p.novo),liquido:P.find(p=>p.cat==="liquido")};
   $("#tiles").innerHTML=Object.entries(SLUG).map(([s,c],i)=>{const n=P.filter(p=>p.cat===c).length;
     return `<a class="tile${i===0?" lead":" white"}" href="#${s}"><img src="${cover[c].imagem}" alt=""><span class="lab"><b>${CATS[c].nome}</b><span><i class="d" style="font-style:normal">${CATS[c].desc} · </i>${n} produtos</span></span></a>`}).join("");
   const o=P.find(p=>p.old);
