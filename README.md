@@ -1,23 +1,17 @@
 # Catálogo Grand Tabacaria (protótipo)
 
-Protótipo de apresentação: catálogo com busca, filtros por marca, escolha de sabor, carrinho e envio do pedido pelo WhatsApp. Sem back-end: os produtos estão em `produtos.js`.
+Catálogo de demonstração: perfumaria árabe em destaque, eletrônicos, líquidos, narguilé e tabacaria. Busca, filtros, carrinho e envio do pedido pelo WhatsApp da loja. Sem back-end.
 
-## Arquivos
+Site: https://arbdigital-backup.github.io/grand-tabacaria-catalogo/
 
 | Arquivo | O que tem |
 |---|---|
-| `index.html` | Estrutura da página e textos fixos (hero, perfumes, rodapé) |
-| `styles.css` | Visual: cores em `:root`, tipografia, layout para celular e computador |
-| `app.js` | Lógica: filtros, busca, carrinho e mensagem do WhatsApp. O número da loja fica na constante `WHATSAPP` no topo |
-| `produtos.js` | Lista de produtos: marca, nome, preço, imagem, selo de novo e sabores |
-| `img/` | Fotos dos produtos |
+| `index.html` | Estrutura e textos fixos |
+| `styles.css` | Visual. Cores e degradê dourado em `:root` |
+| `app.js` | Lógica. Número do WhatsApp na constante `WHATSAPP` no topo; categorias em `CATS` |
+| `produtos.js` | Produtos: categoria, marca, nome, preço, preço antigo, imagem, sabores ou opções, e dados de perfume |
+| `img/` | Fotos e logo |
 
-## Como abrir
+Depois de mudar algo, troque o `?v=` no `index.html` (ex.: `?v=6`) para o navegador carregar a versão nova.
 
-Dê dois cliques no `index.html`, ou rode um servidor local na pasta: `python3 -m http.server 8000` e abra http://localhost:8000.
-
-## Próxima fase
-
-Trocar `produtos.js` por leitura do banco da plataforma ARB (estoque real), com painel do lojista.
-
-Produtos, fotos e preços são exemplos para demonstração.
+Preços e estoque são de demonstração.
