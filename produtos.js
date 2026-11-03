@@ -1,0 +1,788 @@
+/* Produtos do catálogo (exemplo).
+   Para adicionar um produto, copie um bloco { ... } e edite os campos.
+   marca: elfbar | ignite | lostmary | waka | dinnerlady | nicsalt | juice
+   preco: "110,00"   imagem: arquivo dentro da pasta img/   novo: true mostra o selo NOVO */
+window.PRODUTOS = [
+  {
+    "marca": "elfbar",
+    "nome": "ELFBAR DUKE",
+    "preco": "110,00",
+    "imagem": "img/elfbarduke.webp",
+    "novo": true,
+    "sabores": [
+      "Grape Ice",
+      "PEACH MANGO WATERMELON",
+      "Fanta Grape",
+      "Mango Magic"
+    ]
+  },
+  {
+    "marca": "elfbar",
+    "nome": "EBCREATE 40MIL",
+    "preco": "140,00",
+    "imagem": "img/elfbar40k2.webp",
+    "novo": false,
+    "sabores": [
+      "Clear",
+      "Triple Berry",
+      "Strawberry Blend",
+      "Sour Fcuking Fab",
+      "Blue Razz Ice",
+      "Raspberry Mallo",
+      "Toasted Pineapple",
+      "Aurora Berries",
+      "Winter Mint",
+      "Grape Twist",
+      "Golden Berry",
+      "BlackBerry Grape",
+      "Sour Apple Ice"
+    ]
+  },
+  {
+    "marca": "elfbar",
+    "nome": "ELFBAR 45MIL",
+    "preco": "150,00",
+    "imagem": "img/elfbar45k.webp",
+    "novo": false,
+    "sabores": [
+      "Grape Twist",
+      "Tropical Baja",
+      "Mango Magic"
+    ]
+  },
+  {
+    "marca": "elfbar",
+    "nome": "ELFBAR 40MIL",
+    "preco": "140,00",
+    "imagem": "img/elfbar40k.webp",
+    "novo": false,
+    "sabores": [
+      "maça verde ice",
+      "Uva ice",
+      "Miami Mint",
+      "Double Apple Ice",
+      "Sour Lush Gummy",
+      "Cherry Fuse",
+      "Cherry Strazz",
+      "Watermelon Ice",
+      "Tigers Blood",
+      "Grape ice",
+      "Baja Splash",
+      "Scary Berry",
+      "Summer Splash",
+      "Tigers Blood",
+      "Cherry Strazz",
+      "Passion Flash",
+      "Black Mint",
+      "Neon Twist",
+      "Hawaiian Slush",
+      "Strawberry Spark",
+      "Green Apple Slush",
+      "Strawberry Watermelon ice",
+      "Blueberry Ice",
+      "Bubbaloo Tutti Frutti",
+      "Cranberry Pineapple Juice",
+      "Mango Magic",
+      "Peach Mango Watermelon",
+      "Peach +",
+      "Sour Strawberrry DragonFruit"
+    ]
+  },
+  {
+    "marca": "elfbar",
+    "nome": "ELFBAR 33K",
+    "preco": "120",
+    "imagem": "img/elfbar33k.webp",
+    "novo": true,
+    "sabores": [
+      "Granny Cherry"
+    ]
+  },
+  {
+    "marca": "elfbar",
+    "nome": "ELFBAR 30MIL",
+    "preco": "130,00",
+    "imagem": "img/elfbar30k.webp",
+    "novo": false,
+    "sabores": [
+      "Dragon Strawnana",
+      "Green Apple Ice",
+      "Menthol",
+      "Bubbaloo Tutti Frutti",
+      "Açai Banana ice",
+      "Guava Passion Fruit Kiwi",
+      "Miami Mint",
+      "Pineapple Ice",
+      "Coconut Strawberry Ice",
+      "Strawberry Ice",
+      "Banana Coconut Ice",
+      "Bubblaloo Grape",
+      "Cherry Strazz",
+      "Watermelon Ice",
+      "Blueberry Sour Raspberry",
+      "Pineapple Mango"
+    ]
+  },
+  {
+    "marca": "elfbar",
+    "nome": "ELFBAR 23MIL",
+    "preco": "120,00",
+    "imagem": "img/elfbar23k.webp",
+    "novo": false,
+    "sabores": [
+      "Blueberry Pear",
+      "Maçã Verde",
+      "Pineapple Plums Lime Mint",
+      "Baja Splash",
+      "Ice  mint",
+      "Strawberry Ice",
+      "Blue Razz Ice",
+      "Grape Ice",
+      "Strawberry Banana",
+      "Watermelon Ice",
+      "Raspberry Watermelon Lemon",
+      "Watermelon Cherry",
+      "Kiwi Dragon Fruit",
+      "Peach Mango Watermelon"
+    ]
+  },
+  {
+    "marca": "elfbar",
+    "nome": "ELFBAR  P18MIL",
+    "preco": "100,00",
+    "imagem": "img/elfbar18k.webp",
+    "novo": false,
+    "sabores": [
+      "Frozen Blueberry",
+      "Strawberry Watermelon",
+      "Mango Ice",
+      "Love Dream",
+      "Double Apple",
+      "Bubble Gum Mint",
+      "Grape Raspberry",
+      "Grape Ice",
+      "Watermelon Ice",
+      "Grape Mint",
+      "Lemon Mint"
+    ]
+  },
+  {
+    "marca": "elfbar",
+    "nome": "ELFBAR 15MIL",
+    "preco": "85,00",
+    "imagem": "img/elfbar15k.webp",
+    "novo": false,
+    "sabores": [
+      "Pineapple ice",
+      "Tropical Lemonade",
+      "Peach Mango Watermelon",
+      "Americano Ice",
+      "Icy Mint",
+      "Kiwi Passion Fruit Guava",
+      "Strawberry Ice",
+      "Strawberry Kiwi",
+      "Blue Razz Ice",
+      "Green Apple Ice",
+      "Bubbalo Grape",
+      "Watermelon Ice",
+      "Miami Mint",
+      "Strawberry Watermelon",
+      "Sakura Grape",
+      "Mango Magic"
+    ]
+  },
+  {
+    "marca": "ignite",
+    "nome": "IGNITE SHISHA 40K",
+    "preco": "140,00",
+    "imagem": "img/igniteshisha.webp",
+    "novo": true,
+    "sabores": [
+      "WHITE GRAPE ICE",
+      "BLUEBERRY LEMONADE ICE",
+      "TRIPLE MINT",
+      "DOUBLE APPLE",
+      "MELON MANGO BERRIES"
+    ]
+  },
+  {
+    "marca": "ignite",
+    "nome": "IGNITE V500",
+    "preco": "150,00",
+    "imagem": "img/ignitev500.webp",
+    "novo": true,
+    "sabores": [
+      "PIEAPPLE ICE",
+      "GRAPE ICE",
+      "STRAWBERRY APPLE WATERMELON",
+      "COOL MENTHOL",
+      "ICE MINT",
+      "WATERMELON KIWI",
+      "BLUEBERRY ICE",
+      "MANGO PASSION FRUIT",
+      "STRAWBERRY BANANA",
+      "STRAWBERRY KIWI",
+      "PINEAPPLE MANGO",
+      "STRAWBERRY WATERMELON"
+    ]
+  },
+  {
+    "marca": "ignite",
+    "nome": "IGNITE FROZEN",
+    "preco": "110,00",
+    "imagem": "img/ignitefrozen.webp",
+    "novo": true,
+    "sabores": [
+      "STRAWBERRY ICE",
+      "WATERMELON ICE",
+      "GRAPE ICE",
+      "Menthol"
+    ]
+  },
+  {
+    "marca": "ignite",
+    "nome": "IGNITE 40MIL MIX",
+    "preco": "150,00",
+    "imagem": "img/ignitemix.webp",
+    "novo": false,
+    "sabores": [
+      "Mighty Melon + Menthol",
+      "Icy Mint + Peach Grape",
+      "Peach Watermelon Ice + Mango Ice",
+      "Grape Ice + Strawberry",
+      "Grape Pop + Peach Ice",
+      "Strawberry Watermelon Ice + Aloe Grape",
+      "Strawberry Mango + Banana Ice",
+      "Apple Ice + Strawberry Watermelon",
+      "Blueberry Ice Raspberry Blackberry",
+      "Mango Ice + Passion Fruit Guava",
+      "Watermelon Ice + Cherry Ice",
+      "Grape Ice + Watermelon Ice",
+      "Passion Fruit Sour Kiwi + Pineapple Ice",
+      "Orange Ice + Strawberry Ice",
+      "Banana Ice + Strawberry Ice",
+      "Blueberry + Strawberry",
+      "Strawberry Kiwi Ice + Grape Kiwi Ice",
+      "Triple Berry Ice + Grape Ice",
+      "Icy Mint + Menthol",
+      "Pineapple + Coconut",
+      "Raspberry Ice + Watermelon Ice",
+      "Strawberry Grape Ice + kiwi Watermelon Ice"
+    ]
+  },
+  {
+    "marca": "ignite",
+    "nome": "IGNITE 40MIL",
+    "preco": "140,00",
+    "imagem": "img/ignite40kk.webp",
+    "novo": false,
+    "sabores": [
+      "Strawberry",
+      "Watermelon",
+      "Morango Kiwi",
+      "Mint",
+      "Strawberry Watermelon",
+      "Strawberry Watermelon",
+      "Blue Razz Lemon",
+      "Pineapple Kiwi Dragon Fruit",
+      "Strawberry Banana Ice",
+      "Menthol",
+      "Grape",
+      "Strawberry Apple Watermelon",
+      "Sakura Grape"
+    ]
+  },
+  {
+    "marca": "ignite",
+    "nome": "IGNITE 30MIL",
+    "preco": "130,00",
+    "imagem": "img/ignite30k.webp",
+    "novo": false,
+    "sabores": [
+      "Green Apple",
+      "Pineapple Ice",
+      "Watermelon Mix",
+      "Ole Grape ice",
+      "Strawberry Banana",
+      "Banana Coconut Water",
+      "Icy Mint",
+      "Banana Ice",
+      "Watermelon Ice",
+      "Minty Melon",
+      "Strawberry Ice",
+      "Dragon Fruit Watermelon",
+      "Pineapple Ice",
+      "Pineapple Kiwi Dragon Fruit",
+      "Sweet And Sour Pomegranate",
+      "Grape Ice",
+      "Strawberry Kiwi",
+      "Blueberry Ice",
+      "Minty Melon",
+      "Peach Mango",
+      "Pineapple Mango"
+    ]
+  },
+  {
+    "marca": "ignite",
+    "nome": "IGNITE 25MIL",
+    "preco": "120,00",
+    "imagem": "img/ignite25k.webp",
+    "novo": false,
+    "sabores": [
+      "Ice Mint",
+      "Sweet And Sour Pomegranate",
+      "Ice Mint",
+      "Menthol",
+      "Cactus Lime Soda",
+      "Melancia Mix",
+      "Morango Kiwi",
+      "Watermelon Dragon Fruit",
+      "Banana ice",
+      "Grape ice",
+      "Strawberry Ice",
+      "Strawberry Banana",
+      "Blueberry Ice",
+      "Watermelon Ice",
+      "Peach Mango",
+      "Pineapple Ice",
+      "Pineapple Kiwi Dragon Fruit",
+      "Pineapple Mango"
+    ]
+  },
+  {
+    "marca": "ignite",
+    "nome": "IGNITE 15500",
+    "preco": "110,00",
+    "imagem": "img/ignitev155.webp",
+    "novo": false,
+    "sabores": [
+      "Strawberry Banana",
+      "Grape Ice",
+      "Banana Ice",
+      "Strawberry Kiwi",
+      "Watermelon Ice",
+      "Strawberry Watermelon Ice",
+      "Icy Mint",
+      "Banana Ice",
+      "Watermelon Mix",
+      "Menthol",
+      "Blueberry ice",
+      "Kiwi Passion Fruit Guava",
+      "Strawberry Watermelon",
+      "Pineapple Ice",
+      "Green Apple",
+      "Watermelon Dragon Fruit"
+    ]
+  },
+  {
+    "marca": "ignite",
+    "nome": "IGNITE 12MIL",
+    "preco": "100,00",
+    "imagem": "img/ignite12k.webp",
+    "novo": false,
+    "sabores": []
+  },
+  {
+    "marca": "ignite",
+    "nome": "IGNITE 8MIL",
+    "preco": "95,00",
+    "imagem": "img/ignite8k.webp",
+    "novo": false,
+    "sabores": [
+      "Banana Ice",
+      "Ice Mint",
+      "Grapefruit Ice",
+      "Menthol",
+      "Blueberry Lemon",
+      "Uva Ice",
+      "Maçã Verde",
+      "Menthol",
+      "Açai Ice",
+      "Passion Fruit Sour Kiwi",
+      "Apple Mint",
+      "Watermelon Ice",
+      "Mojito Mint",
+      "Arctic Gum",
+      "Spermint Gum",
+      "Frozen Mint Water",
+      "Cactus",
+      "Strawberry Ice"
+    ]
+  },
+  {
+    "marca": "ignite",
+    "nome": "IGNITE V55",
+    "preco": "85,00",
+    "imagem": "img/ignitev55.webp",
+    "novo": false,
+    "sabores": [
+      "Grape Ice",
+      "Strawberry Banana",
+      "Icy Mint",
+      "Menthol",
+      "Miami Mint",
+      "Watermelon Ice",
+      "Aloe Grape",
+      "Vanilla Cream",
+      "Strawberry Banana",
+      "Strawberry Kiwi",
+      "Melon Mix",
+      "Minty Melon",
+      "Grape Apple Acai"
+    ]
+  },
+  {
+    "marca": "lostmary",
+    "nome": "LOST MARY DURA",
+    "preco": "120,00",
+    "imagem": "img/lostmarydura.webp",
+    "novo": false,
+    "sabores": [
+      "MENTHOL",
+      "MIAMI MINT",
+      "SUMMER ORANGE",
+      "grape ice"
+    ]
+  },
+  {
+    "marca": "lostmary",
+    "nome": "LOST MARY 35MIL",
+    "preco": "120,00",
+    "imagem": "img/lostmary35k.webp",
+    "novo": false,
+    "sabores": []
+  },
+  {
+    "marca": "lostmary",
+    "nome": "LOST MARY 30MIL",
+    "preco": "130,00",
+    "imagem": "img/lostmary30k.webp",
+    "novo": false,
+    "sabores": [
+      "Grapefruit Green Tea",
+      "Melancia Ice"
+    ]
+  },
+  {
+    "marca": "lostmary",
+    "nome": "LOST MARY 20MIL",
+    "preco": "85,00",
+    "imagem": "img/lostmary20k.webp",
+    "novo": false,
+    "sabores": [
+      "Berry Bust",
+      "Nana Coconut",
+      "Summer Grape",
+      "Watermelon Ice",
+      "Winter Mint",
+      "Pineapple Lemon",
+      "Hawaii Juice",
+      "Toasted Banana",
+      "Strawmelon Peach",
+      "Rocket Freenze"
+    ]
+  },
+  {
+    "marca": "waka",
+    "nome": "WAKA APEX 30K",
+    "preco": "110,00",
+    "imagem": "img/wakaapex30k.webp",
+    "novo": true,
+    "sabores": [
+      "Blueberry Ice",
+      "Grape Apple",
+      "Black Ice",
+      "Menthol",
+      "Cherry Bomb",
+      "Sour Strawberry Dragonfruit",
+      "Watermelon Strawberry",
+      "Icy Coconut Water",
+      "Strawberry Kiwi",
+      "Miami Mint",
+      "Watermelon Ice",
+      "Pineapple Ice",
+      "Sakura Grape",
+      "Green Apple",
+      "Guava Passion Kiwi"
+    ]
+  },
+  {
+    "marca": "waka",
+    "nome": "WAKA FASTA 46K",
+    "preco": "120,00",
+    "imagem": "img/wakafasta.webp",
+    "novo": true,
+    "sabores": [
+      "BLUEMELON",
+      "WATERMELON",
+      "BLUE RAZZ",
+      "SOUR APPLE",
+      "BANANA TAFFY",
+      "STRAW SHOT",
+      "PEACH MANGO WATERMELON",
+      "STRAWNANA",
+      "WHITE GRAPE",
+      "PERFECT PEACH",
+      "FCUKIN FAB",
+      "LEMON HEADS"
+    ]
+  },
+  {
+    "marca": "waka",
+    "nome": "WAKA 33K",
+    "preco": "110,00",
+    "imagem": "img/waka33k.webp",
+    "novo": true,
+    "sabores": [
+      "GREEN APPLE",
+      "SKITTLES",
+      "CHERRY BOMB"
+    ]
+  },
+  {
+    "marca": "waka",
+    "nome": "WAKA 36MIL",
+    "preco": "110,00",
+    "imagem": "img/waka36k.webp",
+    "novo": false,
+    "sabores": [
+      "Peach"
+    ]
+  },
+  {
+    "marca": "waka",
+    "nome": "WAKA 25MIL",
+    "preco": "95,00",
+    "imagem": "img/waka25k.webp",
+    "novo": false,
+    "sabores": [
+      "MELON ICE",
+      "BUBBALOO GRAPE",
+      "STRAWMELON PEACH",
+      "BANANA AÇAI",
+      "ICY MINY",
+      "MENTHOL",
+      "STRAWBERRY WATERMELON DRAGONFRUIT",
+      "Strawberry Kiwi",
+      "Strawberry Aqua",
+      "Watermelon Peach",
+      "Strawberry Grape",
+      "Passion Fruit Guava Kiwi"
+    ]
+  },
+  {
+    "marca": "waka",
+    "nome": "WAKA ICON 50K",
+    "preco": "120",
+    "imagem": "img/waka50k.webp",
+    "novo": true,
+    "sabores": [
+      "Cool Mint",
+      "Grape Strawberry",
+      "Kiwi Dragon Berry",
+      "Strawberry Guava",
+      "Blueberry Mint",
+      "Fresh Mint",
+      "Strawberry Kiwi"
+    ]
+  },
+  {
+    "marca": "waka",
+    "nome": "WAKA 70K",
+    "preco": "150",
+    "imagem": "img/waka70k.webp",
+    "novo": true,
+    "sabores": [
+      "Fresh Mint",
+      "Blueberry",
+      "Grape",
+      "Watermelon",
+      "Strawberry Kiwi",
+      "Strawberry",
+      "Passion Fruit",
+      "Fresh Mint",
+      "Watermelon",
+      "Mixed Berry",
+      "Peach Blueberry Raspberry",
+      "Icy Coconut Water",
+      "Strawberry Watermelon",
+      "Watermelon Bubblegum",
+      "Peach Mango Watermelon",
+      "Strawberry Mango"
+    ]
+  },
+  {
+    "marca": "dinnerlady",
+    "nome": "DINNER LADY 40K",
+    "preco": "130,00",
+    "imagem": "img/dinnerlady40k.webp",
+    "novo": true,
+    "sabores": [
+      "Sour Mango Pineapple Ice",
+      "Grape Ice",
+      "Juicy Peach Ice",
+      "Watermelon Ice",
+      "Icy Melon"
+    ]
+  },
+  {
+    "marca": "dinnerlady",
+    "nome": "DINNER LADY 60K",
+    "preco": "150,00",
+    "imagem": "img/dinnerlady60k.webp",
+    "novo": true,
+    "sabores": [
+      "CALIFORNIA CHERRY",
+      "SOUR PINK DUST",
+      "SOUR APPLE B POP",
+      "STRAWBERRY B POP",
+      "BERRY CHERRY LIME"
+    ]
+  },
+  {
+    "marca": "dinnerlady",
+    "nome": "DINNER LADY 50K DUAL",
+    "preco": "150,00",
+    "imagem": "img/dinnerlady50k.webp",
+    "novo": true,
+    "sabores": [
+      "STRAWBERRY KIWI + CHERRY ICE",
+      "MANGO PASSION ICE + PINEAPPLE ICE",
+      "BANANA ICE + PEACH MANGO WATERMELON",
+      "KIWI PASSION FRUIT + APPLE PEACH ICE",
+      "GRAPE ICE + MEXICO MANGO ICE",
+      "MINT ICE + PINEAPPLE ICE",
+      "WATERMELON ICE + BLUE MINT",
+      "MENTHOL +  PASSION FRUIT ICE",
+      "WATERMELON ICE + STRAWBERRY ICE"
+    ]
+  },
+  {
+    "marca": "dinnerlady",
+    "nome": "DINNER LADY 20MIL",
+    "preco": "100,00",
+    "imagem": "img/dinnerlady20k.webp",
+    "novo": false,
+    "sabores": [
+      "Watermelon Ice",
+      "Kiwi Passion",
+      "Fruit",
+      "Peach Mango Watermelon",
+      "Apple Peach Ice",
+      "Cola Ice",
+      "Strawberry Ice",
+      "Bnana ice",
+      "Grape ice",
+      "Menthol",
+      "Mango Ice",
+      "Passion Fruit Ice",
+      "Icy Mint",
+      "Pineapple Ice",
+      "Cherry Ice"
+    ]
+  },
+  {
+    "marca": "nicsalt",
+    "nome": "MASKKING 50MG",
+    "preco": "70,00",
+    "imagem": "img/maskking50mg.webp",
+    "novo": false,
+    "sabores": []
+  },
+  {
+    "marca": "nicsalt",
+    "nome": "MASKKING 35MG",
+    "preco": "70,00",
+    "imagem": "img/maskking35mg.webp",
+    "novo": false,
+    "sabores": [
+      "Cool Mint"
+    ]
+  },
+  {
+    "marca": "nicsalt",
+    "nome": "MASKKING 20MG",
+    "preco": "70,00",
+    "imagem": "img/maskking20mg.webp",
+    "novo": false,
+    "sabores": [
+      "Blue Razz",
+      "Strawberry Ice"
+    ]
+  },
+  {
+    "marca": "nicsalt",
+    "nome": "MAGNA 20MG",
+    "preco": "65,00",
+    "imagem": "img/magna20mg.webp",
+    "novo": false,
+    "sabores": []
+  },
+  {
+    "marca": "nicsalt",
+    "nome": "MAGNA 50MG",
+    "preco": "70,00",
+    "imagem": "img/magna50mg.webp",
+    "novo": false,
+    "sabores": [
+      "Grape Sour Ice"
+    ]
+  },
+  {
+    "marca": "nicsalt",
+    "nome": "MR FREEZE 50MG",
+    "preco": "75,00",
+    "imagem": "img/mrfreeze50mg.webp",
+    "novo": false,
+    "sabores": [
+      "Banana frost",
+      "Moon rocks flost",
+      "Grape green apple frost",
+      "Strawberry lemonade frost"
+    ]
+  },
+  {
+    "marca": "nicsalt",
+    "nome": "MR FREEZE 35MG",
+    "preco": "75,00",
+    "imagem": "img/mrfreeze35mg.webp",
+    "novo": false,
+    "sabores": [
+      "Blue razz moon rocks",
+      "Strawberry watermelon frost",
+      "Strawberry kiwi pom frost",
+      "Pineapple frost moon rocks",
+      "Strawberry frost moon rocks",
+      "Dragonfruit strawberry frost",
+      "Strawberry grape frost",
+      "Strawberry kiwi pom frost",
+      "Melancia maracujá lush frost",
+      "Strawberry lemon",
+      "Banana frost",
+      "Cherry watermelon frost",
+      "Strawberry banana frost",
+      "Lychee frost",
+      "Strawberry mango frost",
+      "Cherry frost",
+      "Grape green apple frost",
+      "Tangerina frost",
+      "Grape berry frost"
+    ]
+  },
+  {
+    "marca": "juice",
+    "nome": "MR FREEZE 100ML",
+    "preco": "95,00",
+    "imagem": "img/mrfreeze100ml.webp",
+    "novo": false,
+    "sabores": []
+  },
+  {
+    "marca": "juice",
+    "nome": "MAD MAN 100ML",
+    "preco": "95,00",
+    "imagem": "img/madman100ml.webp",
+    "novo": false,
+    "sabores": []
+  }
+];
