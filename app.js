@@ -1,5 +1,5 @@
 /* Número da loja no formato internacional, só dígitos. */
-const WHATSAPP = "5561916760607";
+const WHATSAPP = "5561991676067";
 
 const CATS = {
   perfume:  {nome:"Perfumaria", desc:"Perfumes árabes originais", icon:"perfume"},
