@@ -1,6 +1,6 @@
 /* Número da loja no formato internacional, só dígitos (ex.: 5561999999999).
    Vazio = o WhatsApp abre e o cliente escolhe o contato. */
-const WHATSAPP = "";
+const WHATSAPP = "5561983639356";
 const BRANDS = {elfbar:"Elfbar",ignite:"Ignite",lostmary:"Lost Mary",waka:"Waka",dinnerlady:"Dinner Lady",nicsalt:"Nic Salt",juice:"Juice"};
 const RAW = (window.PRODUTOS||[]).map(p=>({brand:p.marca,name:p.nome,price:p.preco,data:p.imagem,isNew:p.novo,flavors:p.sabores||[]}));
 
