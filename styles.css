@@ -53,6 +53,19 @@ img{max-width:100%;display:block}
 .step b{display:block;font-size:13px;color:var(--accent);letter-spacing:.12em;font-weight:800}
 .step span{font-weight:650;font-size:15px}
 @media (max-width:560px){.steps{grid-template-columns:1fr}}
+/* celular: hero compacto para os produtos aparecerem logo */
+@media (max-width:560px){
+  .hero{padding-block:22px 20px}
+  .hero h1{font-size:31px;margin:10px 0 10px}
+  .hero p{font-size:15px}
+  .steps{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-top:16px}
+  .step{padding:9px 10px;border-radius:10px}
+  .step b{font-size:11px}
+  .step span{font-size:12.5px;line-height:1.25;display:block}
+  section.block{padding-block:26px}
+  .demo{font-size:12px;padding:6px 10px}
+}
+
 
 /* seções */
 section.block{padding-block:clamp(36px,5vw,64px)}
